@@ -1,6 +1,7 @@
 import {View, Text, TouchableOpacity, StyleSheet, ImageBackground} from 'react-native';
 import React from 'react';
 import { create } from 'react-test-renderer';
+import ImageHouse from './ImageHouse';
 
 type ItemProps= {
    house: House;
@@ -24,14 +25,7 @@ export default function HouseItem({house}: ItemProps): JSX.Element {
     <TouchableOpacity>
         <View style={styles.containerItem}>
             <View style={styles.imgContainer}>
-            <ImageBackground
-            style={styles.imgHouse}
-                source={{uri: house.img}}
-            >
-                <View style= {styles.ratingContainer}>
-                    <Text>{house.rating}</Text>
-                </View>
-            </ImageBackground>
+             <ImageHouse img={house.img} rating={house.rating} />
             </View>
             <Text>{house.address}</Text>
         </View>
@@ -48,6 +42,7 @@ const styles= StyleSheet.create({
         width: '90%',
         alignSelf: 'center',
         borderRadius: 5,
+        marginTop: 5
     },
     imgContainer:{
         borderWidth: 1,
@@ -60,15 +55,5 @@ const styles= StyleSheet.create({
         borderRadius: 10
         
     },
-    imgHouse: {
-        height:'100%',
-        width: '100%',
-        alignSelf:'center',
-        justifyContent: 'center',
-        borderRadius: 10,
-        overflow: 'hidden'
-    },
-    ratingContainer:{
-        backgroundColor:'#F3EB90'
-    }
+    
 })
