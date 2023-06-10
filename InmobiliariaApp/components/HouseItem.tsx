@@ -15,7 +15,7 @@ export type  House=  {
   rooms: number;
   baths: number;
   area: number;
-  cost: number;
+  price: number;
   rating: number;
   img: string;
 };
@@ -23,30 +23,34 @@ export type  House=  {
 export default function HouseItem({house}: ItemProps): JSX.Element {
   return (
     <TouchableOpacity>
-        <View style={styles.containerItem}>
+        <View style={styles.itemContainer}>
             <View style={styles.imgContainer}>
              <ImageHouse img={house.img} rating={house.rating} />
             </View>
-            <Text>{house.address}</Text>
+            <View style={styles.infoContainer}>
+                <Text style={styles.nameTxt}>{house.name}</Text>
+                <Text>{house.address}</Text>
+                <Text>{house.rooms} || {house.baths} || {house.area}</Text>
+                <Text>{house.price}</Text>
+            </View>
         </View>
     </TouchableOpacity>
   );
 }
 
 const styles= StyleSheet.create({
-    containerItem: {
+    itemContainer: {
         borderWidth: 1,
-        borderStyle: 'solid',
         flexDirection: 'row',
         height: 140,
         width: '90%',
         alignSelf: 'center',
         borderRadius: 5,
-        marginTop: 5
+        marginTop: 5,
+        backgroundColor: '#F0F7FA'
     },
     imgContainer:{
         borderWidth: 1,
-        borderStyle: 'solid',
         height: 120,
         width: 120,
         alignSelf:'center',
@@ -55,5 +59,16 @@ const styles= StyleSheet.create({
         borderRadius: 10
         
     },
-    
+    infoContainer:{
+        borderWidth: 1,
+        flexDirection: 'column',
+        marginLeft: 15,
+        width: 205
+    },
+    nameTxt: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: '#000',
+        marginTop: 5,
+    }
 })

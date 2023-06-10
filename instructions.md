@@ -74,7 +74,7 @@
    - Número de habitaciones
    - Número de baños
    - Superficie
-   - Costo de renta mensual
+   - priceo de renta mensual
    - Evaluación o calificación de la propiedad
    - Icono que permita al usuario marcar las propiedades que le gustan.
 
