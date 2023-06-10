@@ -1,0 +1,114 @@
+{
+    "estatesList": [
+        {
+            "id": 0,
+            "name": "The black house",
+            "address": "3120 Lagos, Colima",
+            "rooms": 3,
+            "baths": 2,
+            "area": 120,
+            "cost": 300,
+            "rating": 4.5,
+            "img": "https://propiedadescancun.mx/wp-content/uploads/2019/09/fachada_casa_residencial_cumbres_cancun_olimsu2.jpg"
+        },
+        {
+            "id": 1,
+            "name": "South house",
+            "address": "120 Nubes, Villa de A.",
+            "rooms": 2,
+            "baths": 1,
+            "area": 120,
+            "cost": 150,
+            "rating": 3.5,
+            "img": "https://images.proppit.com/ingester/340cceac-2aab-3e73-a6f0-05fd7be26908/a513ee5b124e814012bc6309f497ff2328e81f56349dbdf8a3164f47dcd77488.jpg"
+        },
+        {
+            "id": 2,
+            "name": "High house",
+            "address": "201 Lagos, Colima",
+            "rooms": 1,
+            "baths": 1,
+            "area": 100,
+            "cost": 100,
+            "rating": 5.0,
+            "img": "https://http2.mlstatic.com/D_NQ_NP_912101-MLM53950893879_022023-O.webp"
+        },
+        {
+            "id": 3,
+            "name": "The green tree",
+            "address": "3120 Lagos, Colima",
+            "rooms": 4,
+            "baths": 3,
+            "area": 400,
+            "cost": 400,
+            "rating": 4.0,
+            "img": "https://img.resemmedia.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2MyMjY0MjY0LTk3MTUtNGVmZS1iOWFkLWU5ODkwZDkxMzRlZS8xNDk0MmMyMy02ZWQ0LTQ1NTAtOTVhYi02MmJmOTJmMDhiYmYuanBnIiwiYnJhbmQiOiJSRVNFTSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzU0LCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"
+        },
+        {
+            "id": 4,
+            "name": "Bobadilla",
+            "address": "3120 Lagos, Colima",
+            "rooms": 4,
+            "baths": 3,
+            "area": 300,
+            "cost": 350,
+            "rating": 3.2,
+            "img": "https://assets.easybroker.com/property_images/2991957/51884235/EB-KM1957.jpg?version=1662482404"
+        },
+        {
+            "id": 5,
+            "name": "The black house",
+            "address": "3120 Jardines, Colima",
+            "rooms": 3,
+            "baths": 2,
+            "area": 120,
+            "cost": 300,
+            "rating": 4.5,
+            "img": "https://propiedadescancun.mx/wp-content/uploads/2019/09/fachada_casa_residencial_cumbres_cancun_olimsu2.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Three pines trees",
+            "address": "120 pines, Colima",
+            "rooms": 3,
+            "baths": 3,
+            "area": 250,
+            "cost": 300,
+            "rating": 4.9,
+            "img": "https://media.wiggot.mx/ie9WXeU-l.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Many colors",
+            "address": "789 Cerros, Colima",
+            "rooms": 2,
+            "baths": 2,
+            "area": 200,
+            "cost": 250,
+            "rating": 3.0,
+            "img": "https://www.bienesonline.com/mexico/photos/fachada111309593435.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Lightness",
+            "address": "3120 Montains, Colima",
+            "rooms": 4,
+            "baths": 3,
+            "area": 350,
+            "cost": 400,
+            "rating": 5.0,
+            "img": "https://static.wixstatic.com/media/10518a_667b3a42ef5d4940b50467a0ea11a35d~mv2.jpg/v1/crop/x_121,y_0,w_1176,h_672/fill/w_840,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Imagen1.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Cristal house",
+            "address": "129 Mares, Colima",
+            "rooms": 4,
+            "baths": 3,
+            "area": 350,
+            "cost": 450,
+            "rating": 4.9,
+            "img": "https://i0.wp.com/jcmbienesraices.com/wp-content/uploads/2020/10/3-Casa-renta-Desierto-de-Los-Leones-CDMX.jpg?fit=989%2C1016&ssl=1"
+        }
+    ]
+}
