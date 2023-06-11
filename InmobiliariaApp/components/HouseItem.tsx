@@ -9,6 +9,7 @@ import React from 'react';
 
 import ImageHouse from './ImageHouse';
 import InfoHouse from './InfoHouse';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 
 type ItemProps = {
@@ -38,6 +39,9 @@ export default function HouseItem({ house }: ItemProps): JSX.Element {
                 <View style={styles.infoContainer}>
                     <InfoHouse house={house} />
                 </View>
+
+                
+            
             </View>
         </TouchableOpacity>
     );
