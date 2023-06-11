@@ -15,7 +15,6 @@ export default function ImageHouse(props: ImageProps): JSX.Element {
     </ImageBackground>
   );
 }
-
 const styles = StyleSheet.create({
   imgHouse: {
     height: '100%',
@@ -40,6 +39,6 @@ const styles = StyleSheet.create({
   ratingTxt: {
     marginLeft: 5,
     fontWeight: 'bold',
-    color: '#7B5E28'
-  }
+    color: '#7B5E28',
+  },
 });
