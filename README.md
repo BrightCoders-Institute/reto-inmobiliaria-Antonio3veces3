@@ -31,3 +31,9 @@ In the image below you can see the UI of this App.
 -[Antonio Ramirez](https://github.com/Antonio3veces3)
 
 - Badges
+
+Score about the quality of code on Codacy.com.
+
+![Quality](./img/QualityCodacy.png)
+
+![Issues](./img/CodacyIssues.png)
